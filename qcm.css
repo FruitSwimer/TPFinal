@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(141, 230, 233);
+}
+h1{
+    color: white;
+    font-size: 20px;
+}
+header{
+    background-color: blue;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.navbar{
+    list-style: none;
+    width: 500px;
+    color: white;
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: white;
+    color: blue;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    margin: 5px;
+    padding: 1em;
+    border: 2px solid rgb(41, 27, 233);
+    font-size: 21px;
+    width: 450px;
+}
