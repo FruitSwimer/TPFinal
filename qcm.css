@@ -3,11 +3,18 @@ body {
 }
 h1{
     color: white;
-    font-size: 20px;
+    font-size: 21px;
 }
 header{
-    margin: 0px;
-    background-color: blue;
+    background-color: rgb(102, 102, 247);
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 5px;
+    padding: 1em;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 50px;
 }
 
 ul{
@@ -22,7 +29,7 @@ ul{
     justify-content: center;
     align-items: space-around;
     list-style: none;
-    width: 500px;
+    width: 250px;
     color: blue;
     font-size: 22px;
 }
@@ -42,19 +49,58 @@ a:hover{
 
 section{
     display: grid;
-    flex-direction: row;
-    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);     
+    grid-gap: 10px;     
+    grid-auto-rows: minmax(100px, auto);
 }
 
 article{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: space-around;
     background-color: rgba(255, 255, 255, 0.774);
     margin: 5px;
     padding: 1em;
-    border: 2px solid rgb(41, 27, 233);
-    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 10px;
     width: 1fr;
 }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: blue;
+    margin: 5px;
+    padding: 1em;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 50px;
+    color: white;
+}
+
+@media (400px <= width <= 700px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        width: 100px;
+        color: blue;
+        font-size: 22px;
+    }
+    
+    .navbar:hover{
+        background-color: white;
+    }
+  }
