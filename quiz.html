@@ -5,29 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Testez vos connaissances sur le Web avec notre quiz interactif. Répondez à des questions sur l'histoire du Web, les technologies HTML et CSS, et bien plus encore. Mettez vos compétences à l'épreuve maintenant !">
     <title>QCM sur le Web</title>
-    <link rel="stylesheet" href="qcm.css"/>
+    <link rel="stylesheet" href="qcm copy.css"/>
+    <link rel="stylesheet" href="styles.css"/>
     <style>
         
     </style>
 </head>
 <body>
     <header>
-
+        <a href="index.html">
+            <img class="QuizImg" src="https://cdn-icons-png.flaticon.com/512/8776/8776742.png" alt="Icone quizz">
+        </a>
+        <h1>HTML CSS</h1>
     </header>
     <main>
-        <form id="quizForm">
-            <Section class = "quizForm">
+        <form id="quizForm" >
+            <Section class="carte">
 
                 <Article class="question-container">
                     <p class="question-title">Qui a créé le Web ?</p>
-                    <label for="Tim-Berners-Lee" class="question-label">Tim Berners-Lee</label>
-                    <input type="radio" id="Tim-Berners-Lee" name="question1" value="Tim Berners-Lee">
-                    <label for="Emmanuel" class="question-label">Emmanuel</label>
-                    <input type="radio" id="Emmanuel" name="question1" value="Emmanuel">
-                    <label for="Cheikh-Fawzan" class="question-label">Cheikh Fawzan</label>
-                    <input type="radio" id="Cheikh-Fawzan" name="question1" value="Cheikh Fawzan">
-                    <label for="Bob-Marley" class="question-label">Bob Marley</label>
-                    <input type="radio" id="Bob-Marley" name="question1" value="Bob Marley">
+                    <div class="response-container">
+                        <label for="Tim-Berners-Lee" class="question-label">Tim Berners-Lee</label>
+                        <input type="radio" id="Tim-Berners-Lee" name="question1" value="Tim Berners-Lee">
+                        <label for="Emmanuel" class="question-label">Emmanuel</label>
+                        <input type="radio" id="Emmanuel" name="question1" value="Emmanuel">
+                        <label for="Cheikh-Fawzan" class="question-label">Cheikh Fawzan</label>
+                        <input type="radio" id="Cheikh-Fawzan" name="question1" value="Cheikh Fawzan">
+                        <label for="Bob-Marley" class="question-label">Bob Marley</label>
+                        <input type="radio" id="Bob-Marley" name="question1" value="Bob Marley">
+                    </div>
                 </Article>
     
 
@@ -72,7 +78,7 @@
 
                 <Article class="question-container">
                     <p class="question-title">En quelle année a été inventé CSS ?</p>
-                    <label for="1994" class="question-label">1994</label>
+                    <label for="1994" class="question-label">1994</label> 
                     <input type="radio" id="1994" name="question5" value="1994">
                     <label for="1995" class="question-label">1995</label>
                     <input type="radio" id="1995" name="question5" value="1995">
@@ -99,6 +105,6 @@
         <p>Site réalisé par Hugo et Lamine</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="quizz.js"></script>
 </body>
 </html>
