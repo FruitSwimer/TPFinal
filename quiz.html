@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Testez vos connaissances sur le Web avec notre quiz interactif. Répondez à des questions sur l'histoire du Web, les technologies HTML et CSS, et bien plus encore. Mettez vos compétences à l'épreuve maintenant !">
+    <title>QCM sur le Web</title>
+    <link rel="stylesheet" href="qcm.css"/>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form id="quizForm">
+            <Section class = "quizForm">
+
+                <Article class="question-container">
+                    <p class="question-title">Qui a créé le Web ?</p>
+                    <label for="Tim-Berners-Lee" class="question-label">Tim Berners-Lee</label>
+                    <input type="radio" id="Tim-Berners-Lee" name="question1" value="Tim Berners-Lee">
+                    <label for="Emmanuel" class="question-label">Emmanuel</label>
+                    <input type="radio" id="Emmanuel" name="question1" value="Emmanuel">
+                    <label for="Cheikh-Fawzan" class="question-label">Cheikh Fawzan</label>
+                    <input type="radio" id="Cheikh-Fawzan" name="question1" value="Cheikh Fawzan">
+                    <label for="Bob-Marley" class="question-label">Bob Marley</label>
+                    <input type="radio" id="Bob-Marley" name="question1" value="Bob Marley">
+                </Article>
+    
+
+                <Article class="question-container">
+                    <p class="question-title">En quelle année le Web a-t-il été créé ?</p>
+                    <label for="2000" class="question-label">2000</label>
+                    <input type="radio" id="2000" name="question2" value="2000">
+                    <label for="1200" class="question-label">1200</label>
+                    <input type="radio" id="1200" name="question2" value="1200">
+                    <label for="1989" class="question-label">1989</label>
+                    <input type="radio" id="1989" name="question2" value="1989">
+                    <label for="1997" class="question-label">1997</label>
+                    <input type="radio" id="1997" name="question2" value="1997">
+                </Article>
+
+
+                <Article class="question-container">
+                    <p class="question-title">Que signifie HTML ?</p>
+                    <label for="HyperText-Markup-Language" class="question-label">HyperText Markup Language</label>
+                    <input type="radio" id="HyperText-Markup-Language" name="question3" value="HyperText Markup Language">
+                    <label for="HyperText-Market-Language" class="question-label">HyperText Market Language</label>
+                    <input type="radio" id="HyperText-Market-Language" name="question3" value="HyperText Market Language">
+                    <label for="HypoText-Mark-Language" class="question-label">HypoText Mark Language</label>
+                    <input type="radio" id="HypoText-Mark-Language" name="question3" value="HypoText Mark Language">
+                    <label for="HyperText-Mark-Language" class="question-label">HyperText Mark Language</label>
+                    <input type="radio" id="HyperText-Mark-Language" name="question3" value="HyperText Mark Language">
+                </Article>
+    
+
+                <Article class="question-container">
+                    <p class="question-title">En quelle année a été inventé HTML ?</p>
+                    <label for="2017" class="question-label">2017</label>
+                    <input type="radio" id="2017" name="question4" value="2017">
+                    <label for="1980" class="question-label">1980</label>
+                    <input type="radio" id="1980" name="question4" value="1980">
+                    <label for="1799" class="question-label">1799</label>
+                    <input type="radio" id="1799" name="question4" value="1799">
+                    <label for="1990" class="question-label">1990</label>
+                    <input type="radio" id="1990" name="question4" value="1990">
+                </Article>
+    
+
+                <Article class="question-container">
+                    <p class="question-title">En quelle année a été inventé CSS ?</p>
+                    <label for="1994" class="question-label">1994</label>
+                    <input type="radio" id="1994" name="question5" value="1994">
+                    <label for="1995" class="question-label">1995</label>
+                    <input type="radio" id="1995" name="question5" value="1995">
+                    <label for="1917" class="question-label">1917</label>
+                    <input type="radio" id="1917" name="question5" value="1917">
+                    <label for="1989" class="question-label">1989</label>
+                    <input type="radio" id="19890" name="question5" value="1989">
+                </Article>
+
+                <div class="navigation">
+                    <button type="button" id="prevBtn" onclick="prevQuestion()">Précédent</button>
+                    <button type="button" id="nextBtn" onclick="nextQuestion()">Suivant</button>
+                    <button type="button" id="submitBtn" onclick="checkAnswers()">Soumettre les réponses</button>
+                </div>
+
+
+            </Section>
+        </form>
+    </main>
+    
+    
+
+    <footer>
+        <p>Site réalisé par Hugo et Lamine</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

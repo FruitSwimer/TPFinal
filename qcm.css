@@ -104,3 +104,50 @@ footer{
         background-color: white;
     }
   }
+
+.selected {
+    background-color: yellow;
+    /* Mettez la couleur que vous souhaitez pour indiquer la sélection */
+}
+
+.question-container {
+    margin-bottom: 10px;
+}
+
+.question-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* CSS pour masquer les questions par défaut */
+.question-hidden {
+    display: none;
+}
+
+/* CSS pour les boutons de navigation */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.quizForm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
