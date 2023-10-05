@@ -1,80 +1,3 @@
-body {
-    background-color: rgb(141, 230, 233);
-}
-h1{
-    color: white;
-    font-size: 21px;
-}
-header{
-    background-color: rgb(102, 102, 247);
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin: 5px;
-    padding: 1em;
-    border: 2px solid white;
-    border-radius: 10px;
-    height: 50px;
-}
-
-ul{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: space-around;
-    list-style: none;
-    width: 250px;
-    color: blue;
-    font-size: 22px;
-}
-
-.navbar:hover{
-    background-color: white;
-}
-
-a{
-    text-decoration: none;
-}
-
-a:hover{
-    background-color: white;
-    color: blue;
-}
-
-section{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);     
-    grid-gap: 10px;     
-    grid-auto-rows: minmax(100px, auto);
-}
-
-article{
-    background-color: rgba(255, 255, 255, 0.774);
-    margin: 5px;
-    padding: 1em;
-    border: 2px solid white;
-    border-radius: 10px;
-    width: 1fr;
-}
-
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    background-color: blue;
-    margin: 5px;
-    padding: 1em;
-    border: 2px solid white;
-    border-radius: 10px;
-    height: 50px;
-    color: white;
-}
 
 @media (400px <= width <= 700px) {
     section {
@@ -96,7 +19,7 @@ footer{
         align-items: center;
         list-style: none;
         width: 100px;
-        color: blue;
+        color: rgb(15, 15, 50);
         font-size: 22px;
     }
     
