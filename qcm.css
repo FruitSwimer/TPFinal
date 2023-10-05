@@ -6,7 +6,7 @@ h1{
     font-size: 21px;
 }
 header{
-    background-color: rgb(102, 102, 247);
+    background-color:blue;
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -35,16 +35,17 @@ ul{
 }
 
 .navbar:hover{
-    background-color: white;
+    background-color: rgb(70, 84, 236);
 }
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 a:hover{
-    background-color: white;
-    color: blue;
+    background-color: rgb(70, 84, 236);
+    color: white;
 }
 
 section{
@@ -75,8 +76,25 @@ footer{
     height: 50px;
     color: white;
 }
+#avis{
+    text-decoration: none;
+    color: red;
+}
 
-@media (400px <= width <= 700px) {
+#avis:hover{
+    background-color: white;
+    color: blue;
+}
+
+button{
+    background-color: blue;
+    margin: 5px;
+    padding: 1em;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+@media (width <= 500px) {
     section {
         display: flex;
         flex-direction: column;
@@ -97,7 +115,7 @@ footer{
         list-style: none;
         width: 100px;
         color: blue;
-        font-size: 22px;
+        font-size: 16px;
     }
     
     .navbar:hover{
